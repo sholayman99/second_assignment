@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Switcher</title>
+</head>
+<body>
+    <img id="img" height="200px" width="200px" src="https://www.flaticon.com/free-icon/profile_3135715" /> 
+    <button onclick="imgChange1()">Change1</button>
+    <button onclick="imgChange2()">Change2</button>
+     <script>
+  //change src image1  function
+  function imgChange1(){
+      let image = document.getElementById("img")
+  image.src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iG72lRc8yQWI/v1/1200x800.jpg"
+
+  }
+
+//change src image2 function
+  function imgChange2(){
+      let image = document.getElementById("img")
+  image.src="https://ss-i.thgim.com/public/incoming/io49zx/article66290403.ece/alternates/FREE_1200/messi-psg.jfif"
+
+  }
+
+
+</script>
+</body>
+</html>
